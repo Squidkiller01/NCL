@@ -69,3 +69,33 @@
     This can be solved by going to https://jeffersondisk.kuts.ch/. This site simulates a jefferson wheel where you can change the different configurations to match that of the assignment.
     Q1) Shifting the wheel up 8 times, reveals the answer of "Blackmailing"
     Q2) Just count the numbers in the key. In this case, there are 12 numbers in the key leading to there needing to be "12" disks.
+
+### Password Cracking
+
+   **Windows (Easy)**
+
+    Using simple hash decryption tools like https://hashes.com/en/decrypt/hash will reveal the answers
+
+    Q1) bb102cf5338be609ad2e3ef0f41d6941:081330031583
+    Q2) 38dd62132565dbd1540aeaf99935e846:tiancrispatroclo
+    Q3) 062133677b96285d616748ab46422e03:94022508371annie25
+   **Combination (Medium)**
+
+    Q1) blueflower99
+
+### Network Traffic Analysis
+
+   **Stream'n (Easy)**
+
+    Searching HTTP in the Display reveal the first two answeres
+    Q1) 10.0.1.3
+    Q2) 10.0.0.11
+    Q3) Expanding the TCP section in Wireshark while having the first HTTP request selected, will reveal the port as "8000"
+    Q4) Selecting the first GET request and expanding the HTTP section will reveal the user agent as "curl/8.4.0\r\n"
+
+### Forensics
+
+   **Jammed (Medium)**
+
+    Q1) Download the archive and run "unzip -FF flag1.zip" in the Linux terminal. This will repair the archive and unzip the file for the flag "SKY-CZIP-3129"
+    Q2) Unlike before, we couldn't just repair the file while unzipping, we had to repair it and rezip the file using "zip -FF flag2.zip --out repaired.zip" and then unzip that file using "unzip repaired.zip" to get the flag "SKY-CZIP-1034"
