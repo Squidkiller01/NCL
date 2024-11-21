@@ -5,15 +5,19 @@
 ## Team Game
 ### Open Source Intelligence
   **Van Life (Easy)**
+    
     - Searching the asset models in google leads to the results.
+    
     - Asset A - __https://www.govdeals.com/asset/222/4072__
       Q1) **Ford Econoline**
       Q2) **2006**
       Q3) **Margate City**
+    
     - Asset B - __https://www.ebay.com/itm/266940624720__
       Q4) **Ford E-Series**
       Q5) **2008**
       Q6) **Chicago**
+    
     - Asset C - __https://www.allsurplus.com/asset/920/5947__
       Q7) **Ford Econoline**
       Q8) **2000**
