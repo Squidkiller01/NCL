@@ -1,6 +1,5 @@
 # NCL Fall 2024 Solution Notes
     Answers listed throughout are marked with quotation marks ("[answer]"). Answers should be located after the solution process.
-    Different sections listed throughout a competition are underlined
     
 ## Individual Game
 
@@ -23,7 +22,7 @@
         62.3% Accuracy
         62.3% Completion
         
-### __Open Source Intelligence__
+### Open Source Intelligence
     Score: 385
     Accuracy: 95.5%
     Completion: 100%
