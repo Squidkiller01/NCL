@@ -3,26 +3,44 @@
     
 ## Individual Game
 
-    Results: Got Gold-4 Medal and 42nd Percentile Overall
+    Results: Got Gold-4 Medal and 70th Percentile Overall
     Scoring:
         2610th PLACE OUT OF 8484
         725 POINTS OUT OF 3000
         52.6% Accuracy
         32.5% Completion
-
+    Top Categories:
+        Scanning & Recon, 85th percentile
+        OSINT, 77th percentile
+        cryptography, 72nd percentile
+    
     Did not take notes
+### Cryptography, 72nd percentile
+### Enumeration & Exploitation, 67th percentile
+### Forensics, 63rd percentile
+### Log Analysis, N/A
+### Network Traffic Analysis, 71st percentile
+### Open Source Intelligence (OSINT), 77th percentile
+### Password Cracking, 61st percentile
+### Scanning & Recon, 85th percentile
+### Web Application Exploitation, 77th percentile
     
 ## Team Game
 
     Teammate: Wyatt Blevins
-    Results: Got Platinum-3 Medal and 65th Percentile Overall
+    Results: Got Platinum-3 Medal and 93rd Percentile Overall
     Scoring:
         356th PLACE OUT OF 4894
         1755 POINTS OUT OF 3100
         62.3% Accuracy
         62.3% Completion
+
+    Top Categories:
+        Scanning & Recon, 98th percentile
+        cryptography, 96th percentile
+        forensics, 94th percentile
         
-### Open Source Intelligence
+### Open Source Intelligence, 93rd percentile
     Score: 385
     Accuracy: 95.5%
     Completion: 100%
@@ -73,7 +91,7 @@
     File 9476 leads to a guy named Gary Baker
     - Therefore the answer to Q1, must be "2089".
 
-### Cryptography
+### Cryptography, 96th percentile
     Score: 170
     Accuracy: 53.3%
     Completion: 72.7%
@@ -96,7 +114,7 @@
     Q1) Shifting the wheel up 8 times, reveals the answer of "Blackmailing"
     Q2) Just count the numbers in the key. In this case, there are 12 numbers in the key leading to there needing to be "12" disks.
 
-### Password Cracking
+### Password Cracking, 90th percentile
     Score: 60
     Accuracy: 100%
     Completion: 25%
@@ -113,7 +131,7 @@
 
     Q1) blueflower99
 
-### Log Analysis 
+### Log Analysis, 93rd percentile
     Score: 315
     Accuracy: 51.5%
     Completion: 89.5%
@@ -182,7 +200,7 @@
         `% cat monitor.xml | grep "FileName" | awk -F '[><]' '{print $3}' | sort | uniq -c | sort -n`
         This reveals the file path "C:\Users\User\Documents\file_2424_1730870430418.txt"
 
-### Network Traffic Analysis
+### Network Traffic Analysis, 86th percentile
     Score: 60
     Accuracy: 66.7%
     Completion: 44.4%
@@ -195,7 +213,7 @@
     Q3) Expanding the TCP section in Wireshark while having the first HTTP request selected, will reveal the port as "8000"
     Q4) Selecting the first GET request and expanding the HTTP section will reveal the user agent as "curl/8.4.0\r\n"
 
-### Forensics
+### Forensics, 94th percentile
     Score: 260
     Accuracy: 62.6%
     Completion: 45.5%
@@ -205,7 +223,7 @@
     Q1) Download the archive and run "unzip -FF flag1.zip" in the Linux terminal. This will repair the archive and unzip the file for the flag "SKY-CZIP-3129"
     Q2) Unlike before, we couldn't just repair the file while unzipping, we had to repair it and rezip the file using "zip -FF flag2.zip --out repaired.zip" and then unzip that file using "unzip repaired.zip" to get the flag "SKY-CZIP-1034"
 
-### Scanning and Reconnaissance
+### Scanning and Reconnaissance, 98th percentile
     Score: 295
     Accuracy: 40%
     Completion: 100%
@@ -243,7 +261,7 @@
     
     No questions solved for this section
     
-### Enumeration & Exploitation
+### Enumeration & Exploitation, 92nd percentile
     Score: 110
     Accuracy: 60%
     Completion: 33.3%
